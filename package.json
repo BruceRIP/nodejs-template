@@ -1,0 +1,26 @@
+{
+  "name": "accounts-microservice",
+  "version": "0.0.1",
+  "description": "Accounts project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Error: you need starting in serverless\" && exit 1",    
+    "local": "ENVIRONMENT=local nodemon app.local.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BruceRIP/accounts-microservice.git"
+  },
+  "author": "BruceRIP",
+  "license": "ISC",
+  "dependencies": {    
+    "custom-env": "^1.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "mongoose": "^5.8.3",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.0"
+  }
+}
