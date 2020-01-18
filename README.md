@@ -1,2 +1,3 @@
-# accounts-microservice
-Accounts project
+# Project Template
+ Project Template for NodeJS projects
+
